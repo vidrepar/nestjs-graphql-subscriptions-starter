@@ -12,7 +12,7 @@ type Query {
 }
 
 type Subscription {
-  pong: Ticket!
+  pong(repoFullName: String!): Ticket!
 }
 
 type Ticket {
